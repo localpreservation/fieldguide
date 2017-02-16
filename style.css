@@ -1,0 +1,95 @@
+body {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', 'Arial', sans-serif;
+  margin: 0; padding: 0;
+  font-size: 1em;
+  color: #333;
+  background-color: #fdfdfd;
+}
+
+a {
+  color: #3f6def;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px dotted #3f6def;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.categories-list {
+  margin: 0; padding: 0;
+}
+
+.categories-list li {
+  display: inline;
+  margin: 0; padding: 0;
+  margin-right: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+header {
+  padding-bottom: 30px;
+}
+
+.month-title {
+  font-size: 2em;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #333;
+}
+
+/* EACH ITEM ~~~~~~~~~~~~~~~~~~~ */
+
+.item {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 40px;
+  padding-right: 20px;
+  width: 300px;
+}
+
+.item-header {
+  padding-bottom: 12px;
+}
+
+.item-header span {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 8px 16px;
+  font-size: .7em;
+}
+
+.item-type {
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-weight: bold;
+  font-size: .7em;
+}
+
+.style {
+  background-color: #1862ab;
+  color: #e8f7ff;
+}
+
+.type {
+  background-color: #087f5b;
+  color: #e6fcf5;
+}
+
+.reading {
+  background-color: #2b8a3e;
+  color: #ebfbee;
+}
+
+.construction {
+  background-color: #5c940d;
+  color: #f4fce3;
+}
